@@ -28,6 +28,11 @@
             android:name=".SettingsActivity"
             android:label="@string/title_activity_settings"
             android:theme="@style/AppTheme.NoActionBar"></activity>
+        <provider
+            android:authorities="nano.com.movieapp"
+            android:name=".data.MovieProvider">
+
+        </provider>
     </application>
 
 </manifest>
